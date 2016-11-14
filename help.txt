@@ -1,0 +1,44 @@
+<style>
+.sw-help-content p{font-size: 110%; line-height:1.2;}
+.sw-help-content h3{}
+.sw-help-content item{background: yellow; padding:3px 5px; font-weight:bold; }
+</style>
+<div class="sw-help-content" id="help-1">
+<h2>Usage Notes:</h3>  
+
+<item>Short URL:</item>
+
+<p>Enter the alias of your desired short url here.  This is the ending portion of the url.</p>  
+
+<p>For example entering "test" in the short url field will create a short url of http://domain.com/go/test/ </p>
+
+<p>You can use letters and numbers here, as well as dot " . "
+Using a dot allows you to create a url which appears as a page.  As in test.html, buy.php, etc.</p>  
+
+<p>Leave it blank to auto generated.</p>
+
+<item># of Links to Open</item>
+<p>Multiple links open with a single click only if the short url is published on this blog in a post, page, or custom post.</p>  
+
+<p>If short url is directly accessed via type in, or via a link on an external domain only one link will be opened at random.</p>
+
+<p>This feature works best in firebox & chrome. </p>
+
+<p>Internet Explorer will give a pop up warning asking the clicker to confirm they do want to open multiple links.</p>
+
+<item>Long Url:</item>
+
+<p>Enter the long url which you would like shortened.
+If you wish to enter multiple long urls for the same short url, click the "add long url" link at the bottom to open a new field.</p>
+
+<item>Probability:</item> 
+<p>Enter Numerical value only.</p>
+
+
+<item>Attributes (NEW since 3.00):</item> 
+<p>You may use it to enter additional link attributes, for example: rel="nofollow" style="color:red" etc.</p>
+
+
+
+
+</div>
